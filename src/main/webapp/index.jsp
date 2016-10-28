@@ -22,6 +22,7 @@
 <body>
 <div>
 
+<h1>This is a cat</h1>
 <img src="static/images/cat.jpg" title="picture of a cat" alt="a picture of a cat" width="100"/>
 
 	<ul>
