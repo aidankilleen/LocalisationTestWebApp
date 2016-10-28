@@ -13,8 +13,13 @@ public class LocalMessages {
 	//	constructor
 	public LocalMessages(Locale locale) {
 		this.locale = locale;
+		
+		
+		//bundle = ResourceBundle.getBundle
+		//		("resources.messages", locale);
 		bundle = ResourceBundle.getBundle
-				("resources.messages", locale);
+				("resources.messages", locale, 
+				new UTF8Control());
 	}
 	
 	//	other methods

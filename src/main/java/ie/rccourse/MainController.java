@@ -16,6 +16,9 @@ public class MainController {
 		Locale locale = new Locale(lang);
 		
 		LocalMessages lm = new LocalMessages(locale);
+
+		String s = lm.getMessage("depart");
+		
 		ModelAndView mav = new ModelAndView("home", 
 						"prompt", 
 						lm.getMessage("prompt"));

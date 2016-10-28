@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+<%@ page language="java" contentType="text/html; charset=utf-8"
     pageEncoding="UTF-8"%>
 <%@ page import="ie.rccourse.*, java.util.*" %>
 
@@ -21,6 +21,9 @@
 <html>
 <body>
 <div>
+
+<img src="static/images/cat.jpg" title="picture of a cat" alt="a picture of a cat" width="100"/>
+
 	<ul>
 		<li><a href="index.jsp?lang=en&country=GB">English</a></li>
 		<li><a href="index.jsp?lang=fr">French</a></li>
